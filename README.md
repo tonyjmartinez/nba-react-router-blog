@@ -47,3 +47,13 @@ A perfect starting point for building interactive, styled, and edge-deployed SPA
 - 🎨 [shadcn/ui](https://ui.shadcn.com)
 - 💨 [Tailwind CSS Documentation](https://tailwindcss.com/)
 - 🔀 [React Router Docs](https://reactrouter.com/)
+
+## Creating New Blog Posts
+
+Use the provided script to scaffold a new MDX post without typing dates manually:
+
+```bash
+npm run new-post "My Great Take"
+```
+
+This creates a file in `app/content/posts/` with the current date and an example chart component to get you started.
